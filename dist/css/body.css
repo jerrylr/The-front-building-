@@ -1,0 +1,84 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+.nav {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	background: #f00;
+	position: fixed;
+	text-align: center;
+}
+
+.top {
+	font-size: 16px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	background: white;
+}
+
+.top span {
+	width: 25px;
+}
+
+.imageleft {
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/sprite.png) no-repeat;
+	background-position: -31px -0px;
+}
+
+.imagecenter {
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/sprite.png) no-repeat;
+	background-position: -0px -0px;
+}
+
+.imageright {
+	height: 30px;
+	line-height: 30px;
+	background: url(../images/sprite.png) no-repeat;
+	background-position: -0px -28px;
+}
+
+.center {
+	padding: 5px;
+	top: 20;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	/*需要用padding来维持16:9比例,也就是9除以16*/
+	height: 0;
+}
+
+.center video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.bottom {
+	margin-top: 30%;
+	width: 100%;
+}
+
+#videoimage {
+	width: 30%;
+	height: 40px;
+	margin-left: 34%;
+}

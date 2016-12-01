@@ -1,0 +1,1 @@
+function changevideo(){var e=new Array,o=(document.getElementById("sr"),document.getElementById("video1"));e=vd.src.split("/"),"one.jpg"==e[e.length-1]&&(console.log(e[e.length-1]),o.src="one.mp4",o.type="video/mp4"),"two.jpg"==e[e.length-1]&&(console.log(e[e.length-1]),o.src="two.ogg",o.type="video/ogg"),o.load(),o.play()}
